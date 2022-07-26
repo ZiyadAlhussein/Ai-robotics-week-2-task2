@@ -20,7 +20,7 @@ Follow through weeb 2 guide to install ubunto 16.04 with ROS in virtual machine:
 
 ![image](https://user-images.githubusercontent.com/108147030/181034084-6846aca4-c8c0-4f6a-99ae-eec344e27e5f.png)
 
-4) type the following command to install:
+4) type the following command to install Arduino:
 
 ```ruby
 sudo ./installl.sh
