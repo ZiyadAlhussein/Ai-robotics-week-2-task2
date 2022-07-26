@@ -27,39 +27,24 @@ sudo ./installl.sh
 ```
 **2. Running Robotic arm packages through ROS:**
 
-```ruby
 1) Go to Terminal and run the following commands: 
 
 i. mkdir -p ~/catkin_ws/src
-
 ii. cd ~/catkin_ws/
-
 iii. catkin_make
-
 iv. cd ~/catkin_ws/src
-
 v. git clone https://github.com/smart-methods/arduino_robot_arm.git 
-
 vi. cd ~/catkin_ws
-
 vii. rosdep install --from-paths src --ignore-src -r -y
-
 viii. sudo apt-get install ros-kinetic-moveit
-
 ix. sudo apt-get install ros-kinetic-joint-state-publisher ros-kinetic-joint-state-publisher-gui
-
 x. sudo apt-get install ros-kinetic-gazebo-ros-control joint-state-publisher
-
 xi. sudo apt-get install ros-kinetic-ros-controllers ros-kinetic-ros-control
-
 xii. sudo nano ~/.bashrc
-
 xiii. at the end of the (bashrc) file add the follwing line (source /home/ziyad/catkin_ws/devel/setup.bash) then ctrl + o then ctrl + x **note:use your device name instead of "ziyad"**
-
 xiv. source ~/.bashrc
-
 xv. roslaunch robot_arm_pkg check_motors.launch
-```
+
 
 2) The following program should run as shown below:
 
