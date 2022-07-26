@@ -29,6 +29,7 @@ sudo ./installl.sh
 
 1) Go to Terminal and run the following commands: 
 
+```ruby
 i. mkdir -p ~/catkin_ws/src
 
 ii. cd ~/catkin_ws/
@@ -58,7 +59,7 @@ xiii. at the end of the (bashrc) file add the follwing line (source /home/ziyad/
 xiv. source ~/.bashrc
 
 xv. roslaunch robot_arm_pkg check_motors.launch
-
+```
 
 2) The following program should run as shown below:
 
