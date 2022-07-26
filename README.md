@@ -55,7 +55,7 @@ xi. sudo apt-get install ros-kinetic-ros-controllers ros-kinetic-ros-control
 xii. sudo nano ~/.bashrc
 
 xiii. at the end of the (bashrc) file add the follwing line (source /home/ziyad/catkin_ws/devel/setup.bash)
-then ctrl + o then ctrl + x *note:use your device name instead of "ziyad"*
+then ctrl + o then ctrl + x (note:use your device name instead of "ziyad")
 
 xiv. source ~/.bashrc
 
