@@ -1,6 +1,6 @@
 # Ai-robotics-week-3-task2
 
-**Task 1: Installing Arduino and Robotic arm packages in Ubunto**  
+**Task 1: Installing Arduino and Robotic arm packages in Ubunto 16.04**  
 
 Follow through weeb 2 guide to install ubunto 16.04 with ROS in virtual machine:
 
